@@ -4,9 +4,9 @@ export async function getProjects() {
     const client = createClient({
         projectId: 'l5cflhi9',
         dataset: 'production',
-        apiVersion: '2023-4-12',
+        apiVersion: '2023-03-10',
     });
-    client.fetch(
+    return client.fetch(
         groq`*[_type == "project"]{
             _id, 
             _createdAt

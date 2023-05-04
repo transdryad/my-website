@@ -1,4 +1,11 @@
-export default function Project() {
+import { getProject } from "@/sanity/sanity-utils";
 
-    return <div>my project goes here</div>
+type Props = {
+    params: { project: string }
+};
+
+export default async function Project({ params }: Props) {
+    const slug = params.project;
+    const project = await getProject(slug);
+    return <div>{project.name}</div>
 }

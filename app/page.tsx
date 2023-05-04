@@ -8,8 +8,8 @@ export default async function Home() {
   return (
   <div className='max-w-5xl mx-auto py-20'>
     <h1 className='text-7xl font-extrabold'>
-      Hello I&apos;m{' '}
-      <span className='bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent'>
+      Hi, I&#8217;m{' '}
+      <span className='bg-gradient-to-r from-blue-400 via-teal-500 to-green-600 bg-clip-text text-transparent'>
         Hazel!
       </span>
     </h1>

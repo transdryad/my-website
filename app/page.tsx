@@ -9,7 +9,7 @@ export default async function Home() {
   <div>
     <h1 className='text-7xl font-extrabold'>
       Hi, I&#8217;m{' '}
-      <span className='bg-gradient-to-r from-blue-400 via-teal-500 to-green-600 bg-clip-text text-transparent'>
+      <span className='bg-gradient-to-r from-blue-400 via-teal-500 to-green-600 bg-clip-text text-transparent drop-shadow'>
         Hazel!
       </span>
     </h1>

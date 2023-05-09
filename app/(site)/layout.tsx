@@ -16,7 +16,7 @@ export default function RootLayout({
       <body className='max-w-3xl mx-auto py-10'>
         <header>
           <Link href='/'
-          className='bg-gradient-to-r from-blue-400 via-teal-500 to-green-600 bg-clip-text text-transparent text-lg font-bold'
+          className='bg-gradient-to-r from-blue-400 via-teal-500 to-green-600 bg-clip-text text-transparent text-2xl font-bold'
           >Hazel</Link>
         </header>
         <main className='py-20'>{children}</main>

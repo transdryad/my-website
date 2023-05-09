@@ -1,3 +1,5 @@
 bg-gradient-to-r from-blue-400 via-teal-500 to-green-600
 
 bg-gradient-to-r from-orange-400 via-red-500 to-purple-600
+
+gird-cols-1 md:grid-cols-2 lg:grid-cols-3
